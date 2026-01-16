@@ -1,8 +1,8 @@
 from luna16_helpers import load_h5_file
 import matplotlib.pyplot as plt
 
-
-filename = r"P:\mmunz\Lehre\IAML\LUNA16\extracted\bin\1\1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_1.h5"
+#1.3.6.1.4.1.14519.5.2.1.6279.6001.162351539386551708034407968929_0
+filename = r"Z:\\public\mmunz\Lehre\IAML\LUNA16\extracted\bin\1\1.3.6.1.4.1.14519.5.2.1.6279.6001.100225287222365663678666836860_1.h5"
 
 # Example usage
 image, mask, metadata = load_h5_file(filename)

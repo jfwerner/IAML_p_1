@@ -30,7 +30,7 @@ def load_h5_file(filepath):
     import h5py
 
     with h5py.File(filepath, 'r') as f:
-        print(list(f.keys()))
+        #print(list(f.keys()))
         image = f['images'][:]
         mask = f['masks'][:]
 
